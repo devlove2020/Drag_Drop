@@ -1,11 +1,11 @@
-import {Text, View} from 'react-native';
-import React, {Component} from 'react';
+import { Text, View } from "react-native";
+import React, { Component } from "react";
 
 export class App extends Component {
   render() {
     return (
-      <View>
-        <Text>App</Text>
+      <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+        <Text>Hello All</Text>
       </View>
     );
   }
